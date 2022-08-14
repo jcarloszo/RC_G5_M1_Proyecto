@@ -1,0 +1,52 @@
+body {
+    background-image: url('./imagenes/fondopagina.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-yellow, .footer-yellow {
+    background-color: #F3EB46;
+}
+
+.navbar-yellow {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.nav-link {
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom-color: #664d03;
+}
+
+.btn-brown {
+    color: #fff;
+    background-color: #664d03;
+    border-color: #664d03;
+}
+
+.btn-brown:hover {
+    background: #4e3c05;
+    color: white;
+}
+
+.link-rrss {
+    padding: 5px;
+    border-radius: 5px;
+    color: #664d03;
+}
+
+.link-rrss:hover {
+    color: #F3EB46;
+    background: #664d03;
+}
+
+.form-control:focus, .form-control:hover {
+    border-color: #49bf88;
+    box-shadow: 0 0 0 0.25rem rgb(13 253 76 / 25%);
+}
