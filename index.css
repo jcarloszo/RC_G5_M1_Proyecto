@@ -1,5 +1,5 @@
 body {
-    background-image: url('./imagenes/fondopagina.jpg');
+    background-image: url('./imagenes/fondopagina2.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -106,10 +106,11 @@ h3 {
     color:#d8ce19;
 }
 h2 {
+    padding: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: bolder;
-    color:  #02A744;
+    color:  #0c6831;
 }
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
