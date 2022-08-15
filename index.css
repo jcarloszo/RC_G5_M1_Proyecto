@@ -1,0 +1,123 @@
+body {
+    background-image: url('./imagenes/fondopagina.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-yellow, .footer-yellow {
+    background-color: #F3EB46;
+}
+
+.navbar-yellow {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.nav-link {
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom-color: #664d03;
+}
+
+.btn-brown {
+    color: #fff;
+    background-color: #664d03;
+    border-color: #664d03;
+}
+
+.btn-brown:hover {
+    background: #4e3c05;
+    color: white;
+}
+
+.link-rrss {
+    padding: 5px;
+    border-radius: 5px;
+    color: #664d03;
+}
+
+.link-rrss:hover {
+    color: #F3EB46;
+    background: #664d03;
+}
+
+.form-control:focus, .form-control:hover {
+    border-color: #49bf88;
+    box-shadow: 0 0 0 0.25rem rgb(13 253 76 / 25%);
+}
+div {
+    display: block;
+}
+
+.Foto {
+    border-radius: 40%;
+    width: 10%;
+    height: 10%;
+    align-content:space-around;
+}
+.Foto2 {
+    border-radius: 10%;
+}
+
+.grupo {
+    border: 5px solid #02A744;
+    width: 150px;
+    height: 150px;
+}
+
+.sombra {
+    box-shadow: -8px 12px 10px -2px #F3EB46;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.text-center {
+    text-align: center!important;
+}
+
+#Imagenes .col-lg-3{
+    margin: 0 !important;
+    padding: 25px;
+}
+#Imagenes img {
+    width: 100%;
+    height: 200px;
+}
+#Imagenes img:hover{
+    border: 5px solid #F3EB46;
+}
+
+#Imagenes video {
+    width: 100%;
+    height: 200px;
+}
+#Imagenes video:hover{
+    border: 5px solid #F3EB46;
+}
+h3 {
+    font-family: Garamond;
+    font-style: italic;
+    font-weight: bold;
+    color:#d8ce19;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color:  #02A744;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: large;
+}
+iframe:hover{
+    width: 50%px;
+    height: auto;
+    border: 5px solid #F3EB46;
+  }
