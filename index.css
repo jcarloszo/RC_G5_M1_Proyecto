@@ -2,6 +2,7 @@ body {
     background-image: url('./imagenes/fondopagina.jpg');
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 .navbar-yellow, .footer-yellow {
