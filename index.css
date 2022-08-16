@@ -123,3 +123,18 @@ iframe:hover{
     height: auto;
     border: 5px solid #F3EB46;
   }
+
+  .mainContainer {
+    height: calc(100vh - 7rem);
+  }
+  @media  (max-width: 768px) {
+    .mainContainer {
+      background-image: url(./imagenes/cerrado-R.jpg);
+    }
+  }
+  @media (min-width: 768px){
+      .mainContainer{
+          background-image: url(./imagenes/cerrado.jpg); 
+  
+      }
+  }
