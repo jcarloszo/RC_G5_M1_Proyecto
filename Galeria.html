@@ -27,24 +27,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item px-2">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="/Home.html">Inicio</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Sobre nosotros</a>
+                        <a class="nav-link" href="/Aboutus.html">Sobre nosotros</a>
                     </li>
                 </ul>
                 <div class="d-flex">
                     <a class="btn btn-brown mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Suscribirse</a>
-                    <a class="btn btn-brown">Log in</a>
+                    <a class="btn btn-brown" href="/login.html">Log in</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
-
+<main class="container bg-light rounded shadow" style="margin-top: 70px;">
   <!--Galeria de Imagenes-->
   <section id="Imagenes" class="container p-5">
     <div class="text-center pt-5">
@@ -143,6 +143,7 @@
       </div>
     </div>
   </section>
+</main>
  <!--Footer-->
  <footer class="footer-yellow bg-gradient p-3">
   <div class="container">
@@ -181,6 +182,40 @@
       </div>
   </div>
 </footer>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content shadow">
+      <div class="modal-header">
+        <h5 class="modal-title text-success" id="exampleModalLabel">¡Suscribite!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="form-group">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" class="form-control" id="nombre">
+              </div>
+              <div class="form-group">
+                  <label for="apellido">Apellido:</label>
+                  <input type="text" class="form-control" id="apellido">
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email">
+                  <div id="passwordHelpBlock" class="form-text">
+                      Todas las novedades llegarán a este correo
+                    </div>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-success">Confirmar suscripción</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
