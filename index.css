@@ -2,6 +2,7 @@ body {
     background-image: url('./imagenes/fondopagina2.jpg');
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 .navbar-yellow, .footer-yellow {
@@ -121,9 +122,23 @@ iframe:hover{
     width: 50%px;
     height: auto;
     border: 5px solid #F3EB46;
-}
+  }
 
-h1 {
+  .mainContainer {
+    height: calc(100vh - 7rem);
+  }
+  @media  (max-width: 768px) {
+    .mainContainer {
+      background-image: url(./imagenes/cerrado-R.jpg);
+    }
+  }
+  @media (min-width: 768px){
+      .mainContainer{
+          background-image: url(./imagenes/cerrado.jpg); 
+  
+      }
+  }
+  h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic!important;
     color:  #02A744;
